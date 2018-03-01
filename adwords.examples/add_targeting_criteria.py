@@ -26,7 +26,7 @@ section of our README.
 from googleads import adwords
 
 
-campaign_id = '326949878'
+campaign_id = CAMPAIGN_ID # It should be a string.
 
 
 def main(client, campaign_id):

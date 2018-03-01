@@ -35,7 +35,7 @@ PAGE_SIZE = 1000
 def main(client):
 
   # get a campaign lookup table.
-  report_downloader = client.GetReportDownloader(version='v201708')
+  report_downloader = client.GetReportDownloader(version='v201710')
 
   query = """SELECT CampaignId, CampaignName, CampaignStatus
             FROM CAMPAIGN_PERFORMANCE_REPORT DURING YESTERDAY
